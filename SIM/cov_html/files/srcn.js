@@ -1,0 +1,2 @@
+var g_data = ["","../ENV/ram_inf.sv","../TEST/ram_pkg.sv","../ENV/ram_coverage.sv","../ENV/sv_sequence_item.sv","../ENV/ram_trans.sv","../ENV/ram_gen.sv","../ENV/ram_lrng_data_xtn.svh","../ENV/ram_hrng_data_xtn.svh","../ENV/ram_wr_rd_xtn.svh","../ENV/ram_cov_xtn.svh","../ENV/ram_driver.sv","../ENV/ram_monitor.sv","../ENV/ram_ref_model.sv","../ENV/ram_scoreboard.sv","../ENV/ram_env.sv","../TEST/ram_base_test.sv","../TOP/ram_tb_top.sv","../RTL/ram_dut.sv"];
+processSrcNamesData(g_data);
