@@ -1,13 +1,42 @@
+# ModelSim / QuestaSim
 work/
 transcript
+vsim.wlf
 *.wlf
+wlf*
+
+# Waveforms
+*.vcd
+*.vpd
+*.fsdb
+
+# Coverage
+cov_html/
+coverage/
+*.ucdb
+
+# Logs
 *.log
 *.jou
 *.str
-*.vcd
-*.fsdb
-*.ucdb
+
+# Tool generated files
 modelsim.ini
-wlft*
-*.vstf
-cov_html/
+vsim_stacktrace.vstf
+*.dbg
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Compilation artifacts
+*.o
+*.obj
