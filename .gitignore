@@ -47,3 +47,33 @@ Thumbs.db
 # Coverage reports
 cov_html/
 coverage/
+
+# Simulation work library
+work/
+
+# Coverage / generated web reports
+cov_html/
+coverage/
+
+# Generated frontend/report assets
+scripts/
+css/
+icons/
+vendor/
+
+# JavaScript files
+*.js
+
+# HTML reports
+*.html
+
+# Waveforms and logs
+*.wlf
+wlf*
+*.vcd
+*.log
+*.ucdb
+
+# ModelSim / Questa
+transcript
+modelsim.ini
