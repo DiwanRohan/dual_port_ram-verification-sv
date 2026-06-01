@@ -1,7 +1,7 @@
 class ram_coverage;
 
   //TRANSACTION HANDLE
-  ram_trans  tr;
+  ram_trans tr;
 
   //previous transaction type
   trans_kind_e prev_kind;
@@ -14,16 +14,13 @@ class ram_coverage;
     //OPERATION TYPE COVERAGE
     cp_kind: coverpoint tr.kind_e {
       bins idle = {IDLE}; bins write = {WRITE}; bins read = {READ}; bins simrw = {SIM_RW};
-    }
-
-    //WRITE ENABLE COVERAGE
-    cp_we: coverpoint tr.we {
-      bins enable = {1}; bins disable_ = {0};
-    }
+    }  //WRITE ENABLE COVERAGE
+    cp_we: coverpoint tr.we {bins enable = {1}; bins disable_ = {0};}
 
     //READ ENABLE COVERAGE
     cp_re: coverpoint tr.re {
-      bins enable = {1}; bins disable_ = {0};
+      // bins enable = {1};
+      bins disable_ = {0};
     }
 
     //WRITE ADDRESS COVERAGE
