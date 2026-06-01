@@ -1,0 +1,79 @@
+# ModelSim / QuestaSim
+work/
+transcript
+vsim.wlf
+*.wlf
+wlf*
+
+# Waveforms
+*.vcd
+*.vpd
+*.fsdb
+
+# Coverage
+cov_html/
+coverage/
+*.ucdb
+
+# Logs
+*.log
+*.jou
+*.str
+
+# Tool generated files
+modelsim.ini
+vsim_stacktrace.vstf
+*.dbg
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Compilation artifacts
+*.o
+*.obj
+
+# HTML reports
+*.html
+
+# Coverage reports
+cov_html/
+coverage/
+
+# Simulation work library
+work/
+
+# Coverage / generated web reports
+cov_html/
+coverage/
+
+# Generated frontend/report assets
+scripts/
+css/
+icons/
+vendor/
+
+# JavaScript files
+*.js
+
+# HTML reports
+*.html
+
+# Waveforms and logs
+*.wlf
+wlf*
+*.vcd
+*.log
+*.ucdb
+
+# ModelSim / Questa
+transcript
+modelsim.ini

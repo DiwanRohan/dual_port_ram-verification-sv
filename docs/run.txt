@@ -1,0 +1,13 @@
+
+
+vlog ..\RTL\ram_16x8.v ..\TEST\ram_pkg.sv ..\TOP\ram_tb_top.sv +incdir+..\ENV +incdir+..\TEST
+
+vsim -voptargs=+acc tam_tb_top
+
+1) first complete the architecture code(skeleton)
+2) implement driver logic
+3) implement monitor logic
+4) implement other component
+5) testcases
+note: after each and every step make sure the compilation and simulation is error free. 
+      debug/analyze waveforms and logs where ever required i.e. driver, monitor etc.
