@@ -10,16 +10,13 @@
 //Time: 12:40 pm
 //
 /////////////////////////////////////
-
-
 `ifndef SV_SEQUENCE_ITEM
 `define SV_SEQUENCE_ITEM 
-
-
 
 //This enforces how the objects are copied
 //              how the objects are duplicated
 //              how the ojects are printed
+
 virtual class sv_sequence_item;
 
   // It copies contents from one object to another object
